@@ -1,7 +1,9 @@
-from ovos_stt_plugin_nemo import NemoSTT
-from ovos_plugin_manager.templates.stt import STT
-from speech_recognition import AudioData
 from typing import Optional
+
+from ovos_plugin_manager.templates.stt import STT
+from ovos_stt_plugin_nemo import NemoSTT
+from ovos_utils import classproperty
+from speech_recognition import AudioData
 
 
 class HiTZSTT(STT):
@@ -22,8 +24,8 @@ class HiTZSTT(STT):
     def execute(self, audio: AudioData, language: Optional[str] = None):
         return self.engine.execute(audio, language)
 
-    @property
-    def available_languages(self) -> set:
+    @classproperty
+    def available_languages(cls) -> set:
         return {"eu"}
 
 
