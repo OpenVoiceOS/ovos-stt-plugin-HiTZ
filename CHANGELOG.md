@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.1.1a1](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.1a1) (2025-06-08)
+## [0.1.2a1](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a1) (2025-12-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.0...0.1.1a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.1...0.1.2a1)
 
 **Merged pull requests:**
 
-- fix: compatibility with ovos-plugin-manager 1.X.X [\#1](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- Configure Renovate [\#3](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
