@@ -1,12 +1,29 @@
 # Changelog
 
-## [0.1.1a1](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.1a1) (2025-06-08)
+## [0.1.2a3](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a3) (2025-12-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.0...0.1.1a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a2...0.1.2a3)
 
 **Merged pull requests:**
 
-- fix: compatibility with ovos-plugin-manager 1.X.X [\#1](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- Update pilosus/action-pip-license-checker action to v3 [\#11](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.2a2](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a2) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a1...0.1.2a2)
+
+**Merged pull requests:**
+
+- Update actions/setup-python action to v6 [\#9](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v6 [\#8](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.2a1](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a1) (2025-12-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.1...0.1.2a1)
+
+**Merged pull requests:**
+
+- Configure Renovate [\#3](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
