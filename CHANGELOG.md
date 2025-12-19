@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a3](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a2...0.1.2a3)
+
+**Merged pull requests:**
+
+- Update pilosus/action-pip-license-checker action to v3 [\#11](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.1.2a2](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a2) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a1...0.1.2a2)
