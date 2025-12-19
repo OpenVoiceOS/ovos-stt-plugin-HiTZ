@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a4](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a4) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a3...0.1.2a4)
+
+**Merged pull requests:**
+
+- Update dependency python to 3.14 [\#5](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/5) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.1.2a3](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a3) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a2...0.1.2a3)
