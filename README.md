@@ -1,23 +1,44 @@
 > **This repository is archived. No further updates will be made.**
-> This plugin has been superseded by [ovos-stt-plugin-nemo](https://github.com/OpenVoiceOS/ovos-stt-plugin-nemo). See the migration guide below.
+> The same Basque models are available via lighter ONNX-based plugins. See the migration guide below.
 
 # OVOS HiTZ STT
 
 OpenVoiceOS STT plugin for **Basque** models trained by [HiTZ](https://huggingface.co/HiTZ).
 
-> GPU is **strongly recommended**
+> GPU is **strongly recommended** for the NeMo path; the ONNX path runs well on CPU.
 
 Online demo: [HiTZ/Aholab's Basque Speech-to-Text](https://huggingface.co/spaces/HiTZ/Demo_Basque_ASR)
 
 ## Migration Guide
 
-Install the parent plugin:
+### Option A — ONNX (recommended, no PyTorch)
+
+Uses the ONNX exports of the same HiTZ models via [ovos-stt-plugin-onnx-asr](https://github.com/TigreGotico/ovos-stt-plugin-onnx-asr).
+Models are part of the [OpenVoiceOS STT ONNX collection](https://huggingface.co/collections/OpenVoiceOS/stt-asr-onnx).
+
+```bash
+pip install ovos-stt-plugin-onnx-asr
+```
+
+```json
+"stt": {
+    "module": "ovos-stt-plugin-onnx-asr",
+    "ovos-stt-plugin-onnx-asr": {
+        "model": "OpenVoiceOS/stt-eu-conformer-ctc-large-onnx"
+    }
+}
+```
+
+| Model | HuggingFace | Architecture |
+|-------|------------|--------------|
+| `OpenVoiceOS/stt-eu-conformer-ctc-large-onnx` | [link](https://huggingface.co/OpenVoiceOS/stt-eu-conformer-ctc-large-onnx) | Conformer-CTC |
+| `OpenVoiceOS/stt-eu-conformer-transducer-large-onnx` | [link](https://huggingface.co/OpenVoiceOS/stt-eu-conformer-transducer-large-onnx) | Conformer-Transducer |
+
+### Option B — NeMo (original path, requires PyTorch + CUDA)
 
 ```bash
 pip install ovos-stt-plugin-nemo
 ```
-
-Update your `mycroft.conf`:
 
 ```json
 "stt": {
@@ -28,8 +49,6 @@ Update your `mycroft.conf`:
     }
 }
 ```
-
-Two Basque models are available:
 
 | Model | HuggingFace |
 |-------|------------|
