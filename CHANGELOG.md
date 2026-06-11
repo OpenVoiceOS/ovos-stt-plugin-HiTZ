@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a6](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a6) (2026-06-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a5...0.1.2a6)
+
+**Merged pull requests:**
+
+- docs: add TigreGotico attribution, link ILENIA [\#14](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/14) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.2a5](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a5) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a4...0.1.2a5)
