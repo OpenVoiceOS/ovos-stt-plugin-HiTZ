@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2a7](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a7) (2026-06-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a6...0.1.2a7)
+
+**Merged pull requests:**
+
+- docs: deprecation notice — migrate to ovos-stt-plugin-nemo [\#15](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/pull/15) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.2a6](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/tree/0.1.2a6) (2026-06-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-stt-plugin-HiTZ/compare/0.1.2a5...0.1.2a6)
